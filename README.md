@@ -35,4 +35,10 @@ Give a summary description of Four design patterns that you choose from the foll
     
     _Disadvantage_:- I do not think there would be any disadvantge of a design pattern which involves building on the existing code.
     
+  4. **Memento Pattern**
   
+     The Memento pattern helps to store the states of an application and restore it when needed for furture reuse. This helps in many applications of basic texting app as well. When we wish to go back in time and undo or redo what we did, the memento pattern helps.
+     
+     _Advantage_:- The states of an application is recorded and hence it helps in reviewing the history as well.
+     
+     _Disadvantge_:- It requires memory to take snapshot and store the states of an application.
