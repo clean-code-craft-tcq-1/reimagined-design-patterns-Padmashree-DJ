@@ -16,15 +16,16 @@ Give a summary description of Four design patterns that you choose from the foll
    
    _Advantages_ :- It can act on the events without coupling to it. We need not poll and ask if there is any data that is updated. 
    
-  _ Disadvantage_:- It requires prior subscribe to that event. Although this doesn't seem like disadvantage.
+  _Disadvantage_:- It requires prior subscribe to that event. Although this doesn't seem like disadvantage.
    
  2. **Visitor Pattern**
  
     Visitor pattern helps to realize open-close principle. With this pattern, we could add new features , without altering the existing code. This reduces the effort for unit testing as well as the older tested code need not be revisited. The usage of this pattern is used in many places such as :- to add the ways of communcication about the change of event. If the nofier was via email first , then we can add via telecommunication also as an added feature in the future development.
     
-   _ Advantages_:- Major advantage is in reduced maintanence even with respect to testing and coding both.
+   _Advantage_:- Major advantage is in reduced maintanence even with respect to testing and coding both.
    
-    _Disadvantage_:- I do not think there would be any disadvantge of a design pattern which involves building on the existing code.
+   _Disadvantage_:- :- I do not think there would be any disadvantge of a design pattern which involves building on the existing code.
+    
     
  3. **Strategy Pattern**
  
