@@ -13,13 +13,25 @@ Give a summary description of Four design patterns that you choose from the foll
 1. **Observer Pattern**
 
    With this pattern , it allows us to view and observe the changes and only act on it when needed. The usage of this design pattern is used in any ethernet communication as to just get the data from server when there is update in the data from server. This reduces the higher bandwidth usage in general.  
-   Advantages :- It can act on the events without coupling to it. We need not poll and ask if there is any data that is updated. 
-   Disadvantage:- It requires prior subscribe to that event. Although this doesn't seem like disadvantage.
+   
+   _Advantages_ :- It can act on the events without coupling to it. We need not poll and ask if there is any data that is updated. 
+   
+  _ Disadvantage_:- It requires prior subscribe to that event. Although this doesn't seem like disadvantage.
    
  2. **Visitor Pattern**
  
     Visitor pattern helps to realize open-close principle. With this pattern, we could add new features , without altering the existing code. This reduces the effort for unit testing as well as the older tested code need not be revisited. The usage of this pattern is used in many places such as :- to add the ways of communcication about the change of event. If the nofier was via email first , then we can add via telecommunication also as an added feature in the future development.
-    Advantages:- Major advantage is in reduced maintanence even with respect to testing and coding both.
-    Disadvantage:- I do not think there would be any disadvantge of a design pattern which involves building on the existing code.
+    
+   _ Advantages_:- Major advantage is in reduced maintanence even with respect to testing and coding both.
+   
+    _Disadvantage_:- I do not think there would be any disadvantge of a design pattern which involves building on the existing code.
+    
+ 3. **Strategy Pattern**
+ 
+    Strategy pattern provides a way to follow the open-close principle. Example of usage of startegy pattern is in a shopping mall, to segragate the cutomer categories based on their shopping value and give the benifits accordingly. Suppose the gold customers get 10 % off, silver customer gets 5% off. Here it is good to use strategy pattern such that the customer doesn't know about the categories. In this startegy, it is possible to add any extra offers to each category envidually or change the categories itself.
+    
+    _Advantage_:- Follows the open-close principle.
+    
+    _Disadvantage_:- I do not think there would be any disadvantge of a design pattern which involves building on the existing code.
     
   
